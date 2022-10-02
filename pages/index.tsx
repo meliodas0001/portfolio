@@ -2,6 +2,7 @@ import type { NextPage } from "next";
 import Head from "next/head";
 import { GlobalStyle } from "../styles/Global";
 import { Container } from "../styles/MainPage";
+import { About } from "./components/About";
 import { Appbar } from "./components/Appbar";
 import { Habilities } from "./components/Habilities";
 import { Principal } from "./components/Principal";
@@ -18,6 +19,7 @@ const Home: NextPage = () => {
       <Appbar />
       <Principal />
       <Habilities />
+      <About />
 
       <GlobalStyle />
     </Container>
