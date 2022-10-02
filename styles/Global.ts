@@ -8,6 +8,7 @@ export const GlobalStyle = createGlobalStyle`
     margin: 0;
     padding: 0;
     text-decoration: none;
+    overflow-x: hidden;
 }
 ::-webkit-scrollbar {
     width: 6px;

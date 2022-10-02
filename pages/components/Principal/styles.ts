@@ -14,12 +14,10 @@ export const Container = styled.div`
 `;
 
 export const Image = styled.img`
-  height: 600px;
-  width: 600px;
-  margin-left: 69px;
   @media (max-width: 1100px) {
     margin-top: 50px;
     margin-left: 0px;
+    width: 400px;
   }
 `;
 
