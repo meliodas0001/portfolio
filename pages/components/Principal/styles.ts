@@ -33,6 +33,9 @@ export const Title = styled.h1`
   align-items: center;
   flex-wrap: wrap;
   margin-left: 80px;
+  @media (max-width: 500px) {
+    margin-left: 0px;
+  }
 `;
 
 export const TitleWithout = styled.h1`

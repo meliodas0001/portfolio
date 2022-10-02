@@ -25,4 +25,8 @@ export const Anchors = styled.a`
   :hover {
     color: ${TextColorHover};
   }
+
+  @media (max-width: 1100px) {
+    display: none;
+  }
 `;

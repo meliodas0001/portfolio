@@ -17,12 +17,9 @@ export function About() {
         <DescriptionContainer>
           <DescriptionTrace />
           <Description>
-            MY NAME IS <DescriptionWithout>RIQUE</DescriptionWithout> AND I BE
-            18 YEARS OLD I LOVE{" "}
-            <DescriptionWithout>TECHNOLOGY</DescriptionWithout>
-            AND <DescriptionWithout>PROGRAMMING</DescriptionWithout> IFYOU’RE
-            LOOKING FOR A WEB DEVELOPER IT’S THERIGHT PLACE.{" "}
-            <DescriptionWithoutBlue>MY GITHUB</DescriptionWithoutBlue>
+            MY NAME IS RIQUE AND I BE 18 YEARS OLD I LOVE TECHNOLOGY AND
+            PROGRAMMING IF YOU’RE LOOKING FOR A WEB DEVELOPER IT’S THE RIGHT
+            PLACE. <DescriptionWithoutBlue>MY GITHUB</DescriptionWithoutBlue>
           </Description>
         </DescriptionContainer>
         <Image src="./aboutme.svg" />
