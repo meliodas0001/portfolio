@@ -4,10 +4,10 @@ import { Anchors, Container } from "./styled";
 export function Appbar() {
   return (
     <Container>
-      <Anchors>ABOUT ME</Anchors>
-      <Anchors>EXPERIENCE</Anchors>
-      <Anchors>TECHNOLOGIES</Anchors>
-      <Anchors>CONTACT</Anchors>
+      <Anchors href="#about">ABOUT ME</Anchors>
+      <Anchors href="#">EXPERIENCE</Anchors>
+      <Anchors href="#">TECHNOLOGIES</Anchors>
+      <Anchors href="#">CONTACT</Anchors>
     </Container>
   );
 }

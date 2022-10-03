@@ -73,6 +73,9 @@ export const DescriptionWithout = styled.span`
   font-size: 40px;
   color: transparent;
   -webkit-text-stroke: 1px ${TextColor};
+  @media (max-width: 1100px) {
+    font-size: 30px;
+  }
 `;
 
 export const DescriptionWithoutBlue = styled.span`

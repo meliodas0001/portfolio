@@ -44,6 +44,7 @@ export const Title = styled.h1`
   font-weight: 700;
   color: transparent;
   -webkit-text-stroke: 1px ${TextColor};
+  overflow-y: hidden;
 `;
 
 export const Description = styled.span`
