@@ -22,8 +22,13 @@ export const Container = styled.div`
 export const Anchors = styled.a`
   font-size: 20px;
   text-decoration: none;
+
   :hover {
     color: ${TextColorHover};
+  }
+
+  :visited {
+    color: ${TextColor};
   }
 
   @media (max-width: 1100px) {
